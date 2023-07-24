@@ -3,69 +3,73 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./static/styles.css">
         <script src="https://kit.fontawesome.com/407e4dc159.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- START NAV -->
-        <nav id="navbar">
-            <ul>
-                <li><a href=""></a></li>
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <!-- END NAV -->
         <!-- START WELCOME SECTION -->
-        <section id="welcome-section">
+        <section id="welcome-section" class="welcome-section">
             <h1>Hey! I am Jin</h1>
             <p>a web developer</p>
         </section>                
         <!-- END WELCOME SECTION -->
         <!-- START PROJECTS SECTION -->
-        <section id="projects">
-            <h2>These are some of my projects</h2>
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">These are some of my projects</h2>
             <div class="projects-grid">
-                <a class="project-tile" href="https://github.com/nghiatr84" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
+                <a class="project project-tile" href="https://github.com/nghiatr84" target="_blank">
+                    <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
                     <p class="project-title">
                         <span class="code"><</span>
                         Lorem ipsum
                         <span class="code">/></span>
                     </p>
                 </a>
-                <a class="project-tile" href="https://github.com/nghiatr84" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
+                <a class="project project-tile" href="https://github.com/nghiatr84" target="_blank">
+                    <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
                     <p class="project-title">
                         <span class="code"><</span>
                         Lorem ipsum
                         <span class="code">/></span>
                     </p>
                 </a>
-                <a class="project-tile" href="https://github.com/nghiatr84" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
+                <a class="project project-tile" href="https://github.com/nghiatr84" target="_blank">
+                    <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
                     <p class="project-title">
                         <span class="code"><</span>
                         Lorem ipsum
                         <span class="code">/></span>
                     </p>
                 </a>
-                <a class="project-tile" href="https://github.com/nghiatr84" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
+                <a class="project project-tile" href="https://github.com/nghiatr84" target="_blank">
+                    <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
                     <p class="project-title">
                         <span class="code"><</span>
                         Lorem ipsum
                         <span class="code">/></span>
                     </p>
                 </a>
-                <a class="project-tile" href="https://github.com/nghiatr84" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
+                <a class="project project-tile" href="https://github.com/nghiatr84" target="_blank">
+                    <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
                     <p class="project-title">
                         <span class="code"><</span>
                         Lorem ipsum
                         <span class="code">/></span>
                     </p>
                 </a>
-                <a class="project-tile" href="https://github.com/nghiatr84" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
+                <a class="project project-tile" href="https://github.com/nghiatr84" target="_blank">
+                    <img class="project-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_Specimen_by_William_Caslon.jpg/220px-A_Specimen_by_William_Caslon.jpg" alt="project">
                     <p class="project-title">
                         <span class="code"><</span>
                         Lorem ipsum
@@ -74,9 +78,8 @@
                 </a>
             </div>   
             <a href="https://github.com/nghiatr84" class="btn btn-show-all" target="_blank">
-                Show btn-show-all
-                <i class="fas fa-chevron-right">
-                    ::before
+                Show all
+                <i class="fas fa-chevron-right">                    
                 </i>
             </a>                     
         </section>
@@ -89,23 +92,23 @@
             </div>
             <div class="contact-links">
                 <a href="https://www.facebook.com/nghia1102" class="btn contact-details" target="_blank">
-                    <i class="fab fa-facebook-square">::before</i>
+                    <i class="fab fa-facebook-square"></i>
                     Facebook
                 </a>
                 <a id="profile-link" href="https://github.com/nghiatr84" class="btn contact-details" target="_blank">
-                    <i class="fab fa-github">::before</i>
+                    <i class="fab fa-github"></i>
                     GitHub
                 </a>
                 <a href="https://twitter.com/shadowwrabbit" class="btn contact-details" target="_blank">
-                    <i class="fab fa-twitter">::before</i>
+                    <i class="fab fa-twitter"></i>
                     Twitter
                 </a>
                 <a href="mailto:nghiabigtran@gmail.com" class="btn contact-details">
-                    <i class="fas fa-at">::before</i>
+                    <i class="fas fa-at"></i>
                     Send a mail
                 </a>
                 <a href="tel:046-638-8167" class="btn contact-details">
-                    <i class="fas fa-mobile-alt">::before</i>
+                    <i class="fas fa-mobile-alt"></i>
                     Call me
                 </a>
             </div>
