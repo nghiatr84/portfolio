@@ -3,6 +3,7 @@
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
+    --teal: #33ccb5;
 }
 
 /* Base reset */
@@ -89,7 +90,7 @@ img{
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
+    background: var(--teal);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
@@ -289,7 +290,7 @@ footer{
     justify-content: space-evenly;
     padding: 2rem;
     background: var(--main-gray);
-    border-top: 4px solid var(--main-red);
+    border-top: 4px solid var(--teal);
 }
 
 footer > p{
