@@ -4,6 +4,7 @@
     --main-blue: #45567d;
     --main-gray: #303841;
     --teal: #33ccb5;
+    --teal-mono: #5CD6C4;
 }
 
 /* Base reset */
@@ -117,7 +118,7 @@ img{
 }
 
 .nav-list a:hover{
-    background: var(--main-blue);
+    background: var(--teal-mono);
 }
 
 /* welcome section */
@@ -145,7 +146,7 @@ img{
 .projects-section{
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-blue);
+    background: var(--teal-mono);
 }
 
 .projects-section-header{
